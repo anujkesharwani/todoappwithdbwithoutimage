@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: lightgray;
+}
+.container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: red;
+    padding: 3rem;
+    font-size: 3rem;
+}
+input{
+    min-width: 600px;
+    height: 2rem;
+    border-radius: 10px 0 10px 0;
+    border: solid 2px red;
+    padding-left: 1rem ;
+    color: red;
+    font-size: 1rem;
+    outline: none;
+    align-items: center;
+
+}
+::placeholder{
+    color: red;
+}
+
+button{
+    width: 200px;
+    height: 2rem;
+    background:green;
+    border: none;
+}
+
+.todo-value{
+    width:40%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 190px;
+    flex-direction: column;
+    min-width: 600px;
+    height: 2rem;
+    border-radius: 10px 0 10px 0;
+    border: solid 2px red;
+    padding-left: 1rem ;
+    color: red;
+    font-size: 1rem;
+    outline: none;
+
+}
+.todo-delete{
+    margin-left: 630px;
+    background-color:black;
+    color: wheat;
+}
+
+/* .todo-container{
+    width:40%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 190px;
+    flex-direction: column;
+    min-width: 600px;
+    height: 2rem;
+    border-radius: 10px 0 10px 0;
+    border: solid 2px red;
+    padding-left: 1rem ;
+    color: red;
+    font-size: 1rem;
+    outline: none;
+    margin-left: 630px;
+    background-color:black;
+    color: wheat;
+
+} */
